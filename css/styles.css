@@ -470,7 +470,7 @@ mark,
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -10365,6 +10365,7 @@ body {
   padding: 5rem 0;
 }
 
+/* Carousel */
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -10373,4 +10374,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
 }
